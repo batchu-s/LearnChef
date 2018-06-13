@@ -7,7 +7,7 @@ This file is a test file which creates a file in tmp directory and installing th
 Resources --> What type? and What is the desired state?
 
 ## Type
-1.file
+1.file\n
 2.package
 3.services
 4.groups
