@@ -1,2 +1,4 @@
 nodes/
-
+cookbooks/workstation/spec
+cookbooks/workstation/test
+cookbooks/workstation/.delivery
