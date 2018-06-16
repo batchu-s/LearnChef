@@ -4,18 +4,12 @@ package 'ntp' do
   action :install
 end
 
-file '/etc/motd' do
-  content "This server is the property of Sumanth!
-  HOSTNAME: #{node['hostname']}
-  IPADDRESSS: #{node['ipaddress']}
-  MEMORY: #{node['memory']['total']}
-  CPU: #{node['cpu']['0']['mhz']}
-
-"
-
-  owner 'root'
-  group 'root'
-  mode '0644'
+template '/etc/motd' do
+  source 'motd.erb'
+  variables(
+    :name => 'Sumanth Kumar'
+  )
+  action :create
 end
 
 service 'ntpd' do
