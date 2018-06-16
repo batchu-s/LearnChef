@@ -83,13 +83,13 @@
     "filesystem": {
       "/dev/mapper/centos-root": {
         "kb_size": "39265556",
-        "kb_used": "1617356",
-        "kb_available": "37648200",
+        "kb_used": "1617640",
+        "kb_available": "37647916",
         "percent_used": "5%",
         "mount": "/",
         "total_inodes": "39284736",
-        "inodes_used": "71823",
-        "inodes_available": "39212913",
+        "inodes_used": "71845",
+        "inodes_available": "39212891",
         "inodes_percent_used": "1%",
         "fs_type": "xfs",
         "mount_options": [
@@ -168,8 +168,8 @@
       },
       "vagrant": {
         "kb_size": "237818876",
-        "kb_used": "145173076",
-        "kb_available": "92645800",
+        "kb_used": "145203752",
+        "kb_available": "92615124",
         "percent_used": "62%",
         "mount": "/vagrant",
         "total_inodes": "1000",
@@ -593,23 +593,23 @@
         "surplus": "0"
       },
       "total": "1016860kB",
-      "free": "563836kB",
+      "free": "563672kB",
       "buffers": "948kB",
-      "cached": "215900kB",
-      "active": "270944kB",
-      "inactive": "99716kB",
+      "cached": "216080kB",
+      "active": "270964kB",
+      "inactive": "99720kB",
       "dirty": "16kB",
       "writeback": "0kB",
-      "anon_pages": "153868kB",
-      "mapped": "29832kB",
-      "slab": "47696kB",
-      "slab_reclaimable": "23120kB",
-      "slab_unreclaim": "24576kB",
-      "page_tables": "7640kB",
+      "anon_pages": "153676kB",
+      "mapped": "29880kB",
+      "slab": "47748kB",
+      "slab_reclaimable": "23176kB",
+      "slab_unreclaim": "24572kB",
+      "page_tables": "7660kB",
       "nfs_unstable": "0kB",
       "bounce": "0kB",
       "commit_limit": "2605576kB",
-      "committed_as": "476612kB",
+      "committed_as": "476740kB",
       "vmalloc_total": "34359738367kB",
       "vmalloc_used": "22200kB",
       "vmalloc_chunk": "34359713784kB",
@@ -775,15 +775,15 @@
         "interfaces": {
           "lo": {
             "rx": {
-              "bytes": "3395",
-              "packets": "28",
+              "bytes": "4589",
+              "packets": "38",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
             },
             "tx": {
-              "bytes": "3395",
-              "packets": "28",
+              "bytes": "4589",
+              "packets": "38",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
@@ -793,16 +793,16 @@
           "enp0s3": {
             "tx": {
               "queuelen": "1000",
-              "bytes": "433897",
-              "packets": "4595",
+              "bytes": "577538",
+              "packets": "5875",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
               "collisions": "0"
             },
             "rx": {
-              "bytes": "3534340",
-              "packets": "9601",
+              "bytes": "3717318",
+              "packets": "11770",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
@@ -822,10 +822,10 @@
     "platform": "centos",
     "platform_version": "7.2.1511",
     "platform_family": "rhel",
-    "uptime_seconds": 10700,
-    "uptime": "2 hours 58 minutes 20 seconds",
-    "idletime_seconds": 10636,
-    "idletime": "2 hours 57 minutes 16 seconds",
+    "uptime_seconds": 11855,
+    "uptime": "3 hours 17 minutes 35 seconds",
+    "idletime_seconds": 11776,
+    "idletime": "3 hours 16 minutes 16 seconds",
     "virtualization": {
       "systems": {
         "vbox": "guest"
@@ -1508,12 +1508,12 @@
       "by_device": {
         "/dev/mapper/centos-root": {
           "kb_size": "39265556",
-          "kb_used": "1617356",
-          "kb_available": "37648200",
+          "kb_used": "1617640",
+          "kb_available": "37647916",
           "percent_used": "5%",
           "total_inodes": "39284736",
-          "inodes_used": "71823",
-          "inodes_available": "39212913",
+          "inodes_used": "71845",
+          "inodes_available": "39212891",
           "inodes_percent_used": "1%",
           "fs_type": "xfs",
           "mount_options": [
@@ -1604,8 +1604,8 @@
         },
         "vagrant": {
           "kb_size": "237818876",
-          "kb_used": "145173076",
-          "kb_available": "92645800",
+          "kb_used": "145203752",
+          "kb_available": "92615124",
           "percent_used": "62%",
           "total_inodes": "1000",
           "inodes_used": "0",
@@ -1838,12 +1838,12 @@
       "by_mountpoint": {
         "/": {
           "kb_size": "39265556",
-          "kb_used": "1617356",
-          "kb_available": "37648200",
+          "kb_used": "1617640",
+          "kb_available": "37647916",
           "percent_used": "5%",
           "total_inodes": "39284736",
-          "inodes_used": "71823",
-          "inodes_available": "39212913",
+          "inodes_used": "71845",
+          "inodes_available": "39212891",
           "inodes_percent_used": "1%",
           "fs_type": "rootfs",
           "mount_options": [
@@ -1965,8 +1965,8 @@
         },
         "/vagrant": {
           "kb_size": "237818876",
-          "kb_used": "145173076",
-          "kb_available": "92645800",
+          "kb_used": "145203752",
+          "kb_available": "92615124",
           "percent_used": "62%",
           "total_inodes": "1000",
           "inodes_used": "0",
@@ -2313,13 +2313,13 @@
         "/dev/mapper/centos-root,/": {
           "device": "/dev/mapper/centos-root",
           "kb_size": "39265556",
-          "kb_used": "1617356",
-          "kb_available": "37648200",
+          "kb_used": "1617640",
+          "kb_available": "37647916",
           "percent_used": "5%",
           "mount": "/",
           "total_inodes": "39284736",
-          "inodes_used": "71823",
-          "inodes_available": "39212913",
+          "inodes_used": "71845",
+          "inodes_available": "39212891",
           "inodes_percent_used": "1%",
           "fs_type": "xfs",
           "mount_options": [
@@ -2438,8 +2438,8 @@
         "vagrant,/vagrant": {
           "device": "vagrant",
           "kb_size": "237818876",
-          "kb_used": "145173076",
-          "kb_available": "92645800",
+          "kb_used": "145203752",
+          "kb_available": "92615124",
           "percent_used": "62%",
           "mount": "/vagrant",
           "total_inodes": "1000",
@@ -2861,7 +2861,7 @@
         ]
       }
     },
-    "ohai_time": 1529175586.8196027,
+    "ohai_time": 1529176741.4859486,
     "packages": {
       "device-mapper-libs": {
         "epoch": "7",

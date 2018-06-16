@@ -7,6 +7,10 @@ end
 #  action :create
 #end
 
+remote_file '/var/www/html/sumanth.png' do
+  source 'https://timedotcom.files.wordpress.com/2017/06/170629_cristiano-ronaldo.jpg'
+end
+
 template '/var/www/html/index.html' do
   source 'index.html.erb'
   variables(
