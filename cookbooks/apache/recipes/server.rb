@@ -8,7 +8,7 @@ end
 #end
 
 remote_file '/var/www/html/sumanth.png' do
-  source 'https://timedotcom.files.wordpress.com/2017/06/170629_cristiano-ronaldo.jpg'
+  source 'https://upload.wikimedia.org/wikipedia/commons/7/72/Cristiano_Ronaldo_2017.jpg'
 end
 
 template '/var/www/html/index.html' do
